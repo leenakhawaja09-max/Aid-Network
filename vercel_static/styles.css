@@ -1,0 +1,21 @@
+/* Flutter web shell — layout and pre-canvas appearance */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f0f4f8;
+  color: #1a2332;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+/* Full-viewport Flutter content */
+body > * {
+  box-sizing: border-box;
+}
